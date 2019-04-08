@@ -10,6 +10,7 @@
 		98CDF60D225B37BA00D00F39 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CDF60C225B37BA00D00F39 /* Extensions+UIView.swift */; };
 		98CDF611225B5DFD00D00F39 /* HomeButtonsControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CDF610225B5DFD00D00F39 /* HomeButtonsControlsStackView.swift */; };
 		98CDF613225B66A300D00F39 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CDF612225B66A300D00F39 /* TopNavigationStackView.swift */; };
+		98CDF615225B6C6D00D00F39 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CDF614225B6C6D00D00F39 /* CardView.swift */; };
 		98F7474D225B341F0069E469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F7474C225B341F0069E469 /* AppDelegate.swift */; };
 		98F7474F225B341F0069E469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F7474E225B341F0069E469 /* ViewController.swift */; };
 		98F74752225B341F0069E469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F74750225B341F0069E469 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		98CDF60C225B37BA00D00F39 /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
 		98CDF610225B5DFD00D00F39 /* HomeButtonsControlsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonsControlsStackView.swift; sourceTree = "<group>"; };
 		98CDF612225B66A300D00F39 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
+		98CDF614225B6C6D00D00F39 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		98F74749225B341F0069E469 /* SwipeMatchFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMatchFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F7474C225B341F0069E469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98F7474E225B341F0069E469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				98CDF610225B5DFD00D00F39 /* HomeButtonsControlsStackView.swift */,
 				98CDF612225B66A300D00F39 /* TopNavigationStackView.swift */,
+				98CDF614225B6C6D00D00F39 /* CardView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				98F7474D225B341F0069E469 /* AppDelegate.swift in Sources */,
 				98CDF611225B5DFD00D00F39 /* HomeButtonsControlsStackView.swift in Sources */,
 				98CDF60D225B37BA00D00F39 /* Extensions+UIView.swift in Sources */,
+				98CDF615225B6C6D00D00F39 /* CardView.swift in Sources */,
 				98CDF613225B66A300D00F39 /* TopNavigationStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
