@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98CDF60D225B37BA00D00F39 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CDF60C225B37BA00D00F39 /* Extensions+UIView.swift */; };
+		98CDF611225B5DFD00D00F39 /* HomeButtonsControlsStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CDF610225B5DFD00D00F39 /* HomeButtonsControlsStackView.swift */; };
+		98CDF613225B66A300D00F39 /* TopNavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CDF612225B66A300D00F39 /* TopNavigationStackView.swift */; };
 		98F7474D225B341F0069E469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F7474C225B341F0069E469 /* AppDelegate.swift */; };
 		98F7474F225B341F0069E469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F7474E225B341F0069E469 /* ViewController.swift */; };
 		98F74752225B341F0069E469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F74750225B341F0069E469 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98CDF60C225B37BA00D00F39 /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		98CDF610225B5DFD00D00F39 /* HomeButtonsControlsStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeButtonsControlsStackView.swift; sourceTree = "<group>"; };
+		98CDF612225B66A300D00F39 /* TopNavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNavigationStackView.swift; sourceTree = "<group>"; };
 		98F74749225B341F0069E469 /* SwipeMatchFirestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMatchFirestore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F7474C225B341F0069E469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98F7474E225B341F0069E469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +41,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98CDF60B225B374F00D00F39 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				98CDF60C225B37BA00D00F39 /* Extensions+UIView.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		98CDF60F225B5DB700D00F39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				98CDF610225B5DFD00D00F39 /* HomeButtonsControlsStackView.swift */,
+				98CDF612225B66A300D00F39 /* TopNavigationStackView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		98F74740225B341F0069E469 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +77,8 @@
 		98F7474B225B341F0069E469 /* SwipeMatchFirestore */ = {
 			isa = PBXGroup;
 			children = (
+				98CDF60F225B5DB700D00F39 /* Views */,
+				98CDF60B225B374F00D00F39 /* Extensions */,
 				98F7474C225B341F0069E469 /* AppDelegate.swift */,
 				98F7474E225B341F0069E469 /* ViewController.swift */,
 				98F74750225B341F0069E469 /* Main.storyboard */,
@@ -137,6 +162,9 @@
 			files = (
 				98F7474F225B341F0069E469 /* ViewController.swift in Sources */,
 				98F7474D225B341F0069E469 /* AppDelegate.swift in Sources */,
+				98CDF611225B5DFD00D00F39 /* HomeButtonsControlsStackView.swift in Sources */,
+				98CDF60D225B37BA00D00F39 /* Extensions+UIView.swift in Sources */,
+				98CDF613225B66A300D00F39 /* TopNavigationStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
